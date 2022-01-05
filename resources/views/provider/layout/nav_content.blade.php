@@ -1,0 +1,6 @@
+@auth('provider')
+    <li class="lg:flex mb-1"><a class="block p-4 text-sm font-medium text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-indigo-100 hover:bg-gray-50 hover:text-indigo-500 rounded" href="{{ route('home') }}">{{ __('crud.navlinks.home') }}</a></li>
+    <li class="lg:flex mb-1"><a class="block p-4 text-sm font-medium text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-indigo-100 hover:bg-gray-50 hover:text-indigo-500 rounded" href="{{ route('provider.home') }}">{{ __('crud.navlinks.dashboard') }}</a></li>
+    <li class="lg:flex mb-1"><a class="block p-4 text-sm font-medium text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-indigo-100 hover:bg-gray-50 hover:text-indigo-500 rounded" href="{{ route('provider.requestHistory') }}">{{ __('crud.navlinks.request') }} {{ __('crud.navlinks.history') }}</a></li>
+    {{-- <li class="lg:flex mb-1"><a class="block p-4 text-sm font-medium text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-indigo-100 hover:bg-gray-50 hover:text-indigo-500 rounded" href="{{ route('provider.settings') }}">{{ __('crud.navlinks.setting') }}</a></li> --}}
+@endauth
